@@ -4,7 +4,7 @@
       <ClientOnly>
         <Icon name="iconoir:vegan" class="text-[2rem] text-lime-800" />
       </ClientOnly>
-      <div class="flex gap-4">
+      <div class="flex gap-8">
         <a href="#">Home</a>
         <a href="#">Ensiklopedia</a>
         <a href="#">Blog</a>
@@ -12,7 +12,7 @@
         <a href="#">Tentang kami</a>
       </div>
     </div>
-    <div class="flex gap-4">
+    <div class="flex gap-8">
       <a href="#">Login</a>
       <a href="#">Signup</a>
     </div>
