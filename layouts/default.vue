@@ -2,6 +2,7 @@
   <div class="bg-lime-300">
     <Header />
     <slot />
+    <Footer />
   </div>
 </template>
 
