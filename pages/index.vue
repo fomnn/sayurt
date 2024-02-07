@@ -54,7 +54,7 @@ onMounted(() => {
 
 <template>
   <div class="">
-    <div class="hero min-h-[calc(100vh-5rem)] flex flex-col px-[3rem] justify-evenly relative ">
+    <div class="hero min-h-[calc(100vh-5rem)] bg-lime-400 flex flex-col px-[3rem] justify-evenly relative ">
       <BgHomepage />
       <div class="flex font-bold tracking-[-1rem] leading-none">
         <div class="flex flex-col text-[10rem] items-end -space-y-6">
@@ -181,7 +181,7 @@ onMounted(() => {
         <h2 class="text-5xl mt-[-1.7rem] drop-shadow-[3px_4px_#84cc16] w-fit mx-auto px-2 font-semibold">Siap makan sayur🥦🥬?</h2>
         <p>Anda telah mempelajari betapa pentingnya makan sayur-sayuran untuk kesehatan dan kesejahteraan Anda. Sekaranglah waktunya untuk mengambil tindakan! Mari bersama-sama merubah kebiasaan makan kita dengan memasukkan lebih banyak sayur-sayuran dalam diet kita sehari-hari.</p>
         <p>Jadi, tunggu apa lagi? Mari bersama-sama mengubah hidup kita dengan mengutamakan makan sayur-sayuran dalam setiap hidangan. Jadilah pahlawan kesehatan bagi diri sendiri dan orang-orang di sekitar kita. Bergabunglah dengan gerakan "Makan Sayur" sekarang!</p>
-        <a href="" class="text-3xl bg-lime-200 px-6 rounded-lg border-2 border-lime-800 w-fit mx-auto mb-[-2rem]">Beli sayur sekarang</a>
+        <NuxtLink to="/belanja" class="text-3xl bg-lime-200 px-6 rounded-lg border-2 border-lime-800 w-fit mx-auto mb-[-2rem]">Beli sayur sekarang</NuxtLink>
       </div>
 
     </div>
