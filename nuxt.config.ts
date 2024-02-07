@@ -13,5 +13,11 @@ export default defineNuxtConfig({
       "DM+Sans": [400, 600, 700, 800, ],
     }
   },
+  app: {
+    pageTransition: {
+      name: 'page',
+      mode: 'out-in'
+    }
+  },
   image: {}
 })
