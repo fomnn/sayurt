@@ -5,8 +5,8 @@
         <Icon name="iconoir:vegan" class="text-[2rem] text-lime-800" />
       </ClientOnly>
       <div class="flex gap-8">
-        <a href="#">Home</a>
-        <a href="#">Ensiklopedia</a>
+        <NuxtLink to="/">Home</NuxtLink>
+        <NuxtLink to="/ensiklopedia">Ensiklopedia</NuxtLink>
         <a href="#">Blog</a>
         <a href="#">Belanja</a>
         <a href="#">Tentang kami</a>
