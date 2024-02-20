@@ -1,6 +1,5 @@
 <template>
-  <div class="flex border-t border-lime-500">
-
+  <div class="flex border-lime-500">
     <div class="py-[2rem] pl-[5rem] pr-[2rem] w-[80%] flex flex-col gap-4">
       <div class="">
         <h1 class="text-5xl font-semibold">Ensiklopedia Sayur</h1>

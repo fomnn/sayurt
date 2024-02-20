@@ -4,7 +4,7 @@
       <div class="">
         <div class="flex items-center gap-2">
           <Icon name="iconoir:vegan" class="text-5xl text-lime-50" />
-          <span class="text-lime-50 text-2xl font-semibold">Sayurs</span>
+          <span class="text-lime-50 text-2xl font-semibold">Sayurt</span>
         </div>
         <p class="text-lime-50 text-sm">Makan sayur agar sehat dan kuat</p>
       </div>
