@@ -25,8 +25,13 @@
       </div>
     </div>
     <div class="flex gap-8">
-      <a href="#" class="hover:underline">Login</a>
-      <a href="#" class="hover:underline">Signup</a>
+      <NuxtLink
+        to="/auth/login"
+        class="hover:underline"
+      >
+        Login
+      </NuxtLink>
+      <NuxtLink to="/auth/signup" class="hover:underline">Signup</NuxtLink>
     </div>
   </div>
 </template>
