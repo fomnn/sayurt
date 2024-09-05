@@ -12,12 +12,18 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxt/eslint',
     '@nuxt/ui',
+    '@nuxt/content',
+    '@nuxtjs/mdc'
   ],
 
   googleFonts: {
     families: {
       'DM+Sans': [400, 600, 700, 800],
     },
+  },
+
+  routeRules: {
+    '/ensiklopedia': { prerender: true }
   },
 
   app: {
@@ -30,6 +36,8 @@ export default defineNuxtConfig({
     },
   },
 
+  css: ['~/assets/css/index.css'],
+
   eslint: {
     config: {
       standalone: false,
@@ -40,4 +48,7 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'light',
   },
+  content: {
+    
+  }
 })

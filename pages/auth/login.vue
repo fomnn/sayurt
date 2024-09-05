@@ -32,7 +32,11 @@ const email = ref('')
       <UFormGroup label="Password" required>
         <UInput placeholder="password anda" />
       </UFormGroup>
-      <UButton type="submit" block color="black">
+      <UButton
+        type="submit"
+        block
+        color="black"
+      >
         Login
       </UButton>
     </form>

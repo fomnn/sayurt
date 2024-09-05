@@ -32,10 +32,18 @@ const email = ref('')
       <UFormGroup label="Email" required>
         <UInput v-model="email" placeholder="email anda" />
       </UFormGroup>
-      <UFormGroup label="Password" required help="Minimal 8 huruf">
+      <UFormGroup
+        label="Password"
+        required
+        help="Minimal 8 huruf"
+      >
         <UInput placeholder="password anda" />
       </UFormGroup>
-      <UButton type="submit" block color="black">
+      <UButton
+        type="submit"
+        block
+        color="black"
+      >
         Buat Akun
       </UButton>
     </form>

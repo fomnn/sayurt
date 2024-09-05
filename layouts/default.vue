@@ -3,10 +3,10 @@
 </script>
 
 <template>
-  <div class="bg-lime-300">
-    <HeaderC />
+  <div class="">
+    <LazyHeaderC />
     <slot />
-    <FooterC />
+    <LazyFooterC />
   </div>
 </template>
 
